@@ -63,16 +63,6 @@ I enjoy connecting clean interfaces with useful functionality — from student m
 </tr>
 </table>
 
-### Contribution landscape
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="My GitHub contributions in 3D" width="100%" />
-</picture>
-
-<p align="center"><sub>Generated from my GitHub activity and refreshed daily with GitHub Actions.</sub></p>
-
 ---
 
 <p align="center"><strong>Have a project or an internship opportunity?</strong><br />Let's connect through <a href="https://www.linkedin.com/in/m-f-abdul-ahadh-1aa231396">LinkedIn</a> or my <a href="https://my-potfolio-2-0.vercel.app/">portfolio</a>.</p>
