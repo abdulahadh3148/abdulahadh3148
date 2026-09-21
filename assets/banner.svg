@@ -1,14 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Abdul Ahadh. Building thoughtful web experiences.">
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1020"/><stop offset="1" stop-color="#182c3c"/></linearGradient><linearGradient id="accent"><stop stop-color="#61e5c5"/><stop offset="1" stop-color="#60a5fa"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity=".07"/></pattern></defs>
-<rect width="1200" height="360" rx="20" fill="url(#bg)"/>
-<rect width="1200" height="360" rx="20" fill="url(#grid)"/>
-<circle cx="1070" cy="170" r="130" fill="none" stroke="#61e5c5" stroke-opacity=".12"/>
-<circle cx="1070" cy="170" r="94" fill="none" stroke="#61e5c5" stroke-opacity=".2"/>
-<text x="63" y="73" font-family="monospace" font-size="15" letter-spacing="4" fill="#61e5c5">CODE. CREATE. IMPROVE.</text>
-<text x="60" y="156" font-family="Arial, sans-serif" font-size="68" font-weight="700" fill="#f8fafc">Abdul Ahadh<tspan fill="#61e5c5">.</tspan></text>
-<text x="64" y="207" font-family="Arial, sans-serif" font-size="25" fill="#cbd5e1">Building thoughtful web experiences.</text>
-<rect x="64" y="242" width="380" height="2" fill="url(#accent)"/>
-<text x="64" y="292" font-family="monospace" font-size="17" fill="#91a7be">REACT / NODE.JS / FIREBASE / PHP</text>
-<path d="m1040 143-30 27 30 27m60-54 30 27-30 27m-25-70-18 86" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-<circle cx="1150" cy="45" r="5" fill="#61e5c5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Abdul Ahadh — Full-stack developer</title><desc id="desc">Animated violet and cyan developer banner with an orbiting code symbol and terminal panel.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080b18"/><stop offset="1" stop-color="#16132c"/></linearGradient>
+<linearGradient id="neon"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#7c3aed" stop-opacity=".24"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#b7b8ef" stroke-opacity=".045"/></pattern>
+<style>
+.orbit{transform-origin:976px 183px;animation:orbit 24s linear infinite}.reverse{animation-direction:reverse;animation-duration:32s}.cursor{animation:blink 1.2s steps(2,end) infinite}.float{animation:float 6s ease-in-out infinite}.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes orbit{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:0}}@keyframes float{50%{transform:translateY(-7px)}}@keyframes pulse{50%{opacity:.4}}
+@media(prefers-reduced-motion:reduce){.orbit,.cursor,.float,.pulse{animation:none}}
+</style></defs>
+<rect width="1200" height="440" rx="24" fill="url(#bg)"/><rect width="1200" height="440" rx="24" fill="url(#grid)"/>
+<ellipse cx="1010" cy="150" rx="280" ry="280" fill="url(#glow)"/><path d="M48 1H1152" stroke="url(#neon)" stroke-opacity=".7"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="52" y="42" width="272" height="32" rx="16" fill="#151c2b" stroke="#334155"/>
+<circle cx="70" cy="58" r="4" fill="#6ee7b7" class="pulse"/><text x="84" y="63" fill="#bde9df" font-size="12" letter-spacing="1.4">OPEN TO INTERNSHIPS</text>
+<text x="50" y="161" font-size="76" font-weight="700" letter-spacing="-3" fill="#f5f3ff">Abdul Ahadh<tspan fill="#a78bfa">.</tspan></text>
+<text x="54" y="203" font-size="24" fill="#c4b5fd">From an idea to a working experience.</text>
+<text x="54" y="237" font-size="16" fill="#98a6bc">Aspiring Software Engineer / Full-stack Web Development</text>
+<rect x="52" y="281" width="627" height="106" rx="13" fill="#080c16" stroke="#283047"/>
+<circle cx="72" cy="302" r="3" fill="#fb7185"/><circle cx="84" cy="302" r="3" fill="#fbbf24"/><circle cx="96" cy="302" r="3" fill="#34d399"/>
+<text x="117" y="306" font-family="monospace" font-size="11" fill="#65758e">abdul / workspace</text>
+<text x="72" y="338" font-family="monospace" font-size="16" fill="#9aa9c2"><tspan fill="#67e8f9">$ </tspan>build meaningful things</text>
+<text x="72" y="367" font-family="monospace" font-size="13" fill="#94a3b8">React · Node.js · Firebase · PHP</text><rect x="381" y="354" width="8" height="16" fill="#a78bfa" class="cursor"/>
+<circle cx="976" cy="183" r="131" stroke="#39324f" stroke-width="1" fill="none"/><circle cx="976" cy="183" r="98" stroke="#343f55" fill="none"/>
+<g class="orbit"><circle cx="976" cy="52" r="6" fill="#a78bfa"/><circle cx="976" cy="314" r="4" fill="#67e8f9"/><path d="M845 183a131 131 0 0 1 131-131" stroke="#a78bfa" stroke-opacity=".7" fill="none"/></g>
+<g class="orbit reverse"><circle cx="1074" cy="183" r="5" fill="#67e8f9"/></g>
+<g class="float"><rect x="919" y="126" width="114" height="114" rx="29" fill="#161b30" stroke="#665792"/><path d="m954 164-21 19 21 19m44-38 21 19-21 19m-14-50-15 62" fill="none" stroke="url(#neon)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="976" y="363" text-anchor="middle" font-family="monospace" font-size="12" letter-spacing="3" fill="#a5b4cd">DESIGN / BUILD / REFINE</text>
+<text x="976" y="388" text-anchor="middle" font-size="12" fill="#718199">Sri Lanka · Available to collaborate</text>
+</g></svg>
